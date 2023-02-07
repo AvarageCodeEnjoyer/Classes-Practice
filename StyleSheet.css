@@ -1,0 +1,36 @@
+body{
+  margin: 0px;
+}
+
+.container{
+  background-color: rgb(134, 190, 181);
+  height: 100vh;
+  display: flex;
+}
+
+.inner-container{
+  min-height: 300px;
+  width: 300px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: center;
+  border-radius: 10px;
+}
+
+.inner-container > button{
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+}
+
+.list{
+  background-color: aqua;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+ul{
+  padding: 0px;
+}
